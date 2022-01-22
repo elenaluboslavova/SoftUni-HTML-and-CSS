@@ -1,0 +1,19 @@
+html{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2{
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+section article:nth-child(2) ul li:nth-child(2) ul{
+    list-style-type: disc;
+}
+
+section article:nth-child(2) ul li:nth-child(2) ul li:nth-child(2) ul{
+    list-style-type: circle;
+}

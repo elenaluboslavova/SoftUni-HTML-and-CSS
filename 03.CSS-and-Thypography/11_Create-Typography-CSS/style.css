@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table th {
+    background-color: lightblue;
+}
+
+table th, table td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+article ul li:nth-child(2) ul{
+    list-style-type: disc;
+}
+
+article ul li:nth-child(2) ul li:nth-child(2) ul{
+    list-style-type: circle;
+}
+
+blockquote {
+    border-left: 1px solid rgb(221,221,221);
+    font-style: italic;
+    padding-left: 10px;
+}
+
+blockquote cite {
+    text-align: right;
+}
