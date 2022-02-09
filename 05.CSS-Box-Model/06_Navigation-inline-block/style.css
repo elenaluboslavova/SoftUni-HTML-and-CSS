@@ -1,0 +1,26 @@
+html {
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    color: green;
+    display: inline-block;
+    padding: 10px;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+main h1 {
+    font-weight: normal;
+}
+
+main p {
+    margin-top: 30px;
+}
