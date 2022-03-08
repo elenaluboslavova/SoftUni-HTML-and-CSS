@@ -1,0 +1,308 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+:root{
+    --blue:#63b3ed;
+    --black:#2d3748;
+    --darkgrey:#1a202c;
+    --lightgrey:#edf2f7;
+    --white:#fff;
+}
+body{
+    font-family: Helvetica;
+    color:var(--black);
+    margin:0px;
+}
+/* header --------------*/
+header{
+    padding:10px 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+header .logo{
+    font-size:35px;
+    margin-top:20px;
+    margin-left: 100px;
+}
+
+header .logo span{
+    color:var(--blue);
+}
+
+header nav {
+    display:inline-block;
+    margin: 0px 40px 0px auto;
+    padding-right:50px;
+    font-size:25px;
+}
+
+header nav ul {
+    display:inline-block;
+}
+
+header nav ul li{
+    display:inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li:nth-of-type(1){
+    border-bottom:3px solid var(--blue);
+    padding-bottom:4px;
+}
+
+header nav ul li a{
+    text-decoration:none;
+    color:var(--black);
+}
+
+/* main hero ---------------*/
+.hero{
+    background-image: url('./images/slide2.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.hero div{
+    position: absolute;
+    top:200px;
+    left:220px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:#fff;
+    padding:0px 15px 15px 15px;
+}
+
+.hero div p{
+    font-size: 60px;
+    line-height: 0.2em;
+    letter-spacing:1px;
+}
+
+.hero div button{
+    font-size: 40px;
+    color:var(--white);
+    background-color: var(--blue);
+    border-radius: 50px;
+    border:none;
+    padding: 10px 50px;
+}
+
+/* main welcome ---------------*/
+.welcome{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+}
+
+.welcome p:nth-of-type(1){
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.welcome div{
+    width:180px;
+    border-bottom:5px solid var(--blue);
+    text-align: center;
+    margin:0px auto;
+    position:relative;
+    top:-35px;
+}
+
+.welcome p:nth-of-type(2){
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+.welcome button{
+    font-size: 30px;
+    color:var(--white);
+    background-color: var(--black);
+    border-radius: 50px;
+    border:none;
+    padding: 20px 50px;
+    margin-top:20px;
+}
+
+/* main services ---------------*/
+.services{
+    background-color: var(--lightgrey);
+    margin:60px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.services .title{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.line{
+    width:180px;
+    border-bottom:5px solid var(--black);
+    text-align: center;
+    margin:0px auto;
+    position:relative;
+    top:-35px;
+}
+
+.services .wrapper{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap:30px;
+    width: 85%;
+    text-align: center;
+    margin:5px auto;
+}
+
+.services .wrapper .service{
+    width:30%;
+    background-color:var(--white);
+    margin: 0px auto;
+}
+
+.services .wrapper .service img{
+    width:100%;
+}
+
+.services .wrapper .service .title{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.services .wrapper .service p{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0px 20px;
+    line-height: 1.2em;
+}
+
+.services .wrapper .service button{
+    font-size: 20px;
+    color:var(--white);
+    background-color: var(--black);
+    border-radius: 5px;
+    border:none;
+    padding: 10px 20px;
+    margin-bottom:40px;
+}
+
+/* main subscribe ---------------*/
+.subscribe{
+    text-align: center;
+    margin: 0px auto;
+    background-color: var(--black);
+    color:var(--white);
+    padding: 30px 0px 60px 0px;
+}
+
+.subscribe .title{
+    font-size: 50px;
+    font-weight: 200;
+    padding-top:20px;
+}
+
+.subscribe .line{
+    border-bottom:5px solid var(--white);
+}
+
+.subscribe p{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin-top:-20px;
+}
+
+.subscribe form input{
+    width: 40%;
+    height: 40px;
+    background-color: #4a5568;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-style:italic;
+    font-size: 25px;
+}
+
+.subscribe form button{
+    width: 15%;
+    height: 60px;
+    font-size: 30px;
+    background-color: var(--blue);
+    color:var(--white);
+    border:none;
+    border-radius: 5px;
+    margin-left:10px;
+}
+
+/* footer -------------*/
+.footer{
+    display:flex;
+    background-color:var(--darkgrey);
+    padding:5px 10px;
+    color:var(--white);
+    font-size:30px;
+    justify-content:space-around;
+    gap:20px;
+    padding-left:80px;
+    margin-top:-5px;
+}
+
+.footer div{
+    width: 20%;
+    padding:40px;
+}
+
+.footer div p{
+    margin-left:40px;
+    margin-bottom:18px;
+}
+
+.footer div ul{
+    list-style-type:none;
+    margin-top:0px;
+}
+
+.footer div ul li{
+    padding-top:18px;
+    font-size: 25px;
+}
+
+.footer div ul li:first-of-type{
+    padding-top:0;
+}
+
+.footer div ul li a{
+    text-decoration: none;
+    color:var(--white);
+}
+
+.footer .footer-address li:first-of-type{
+    margin-bottom: 25px;
+}
+
+.footer .footer-follow ul li{
+    display:inline-block;
+    padding: 8px;
+    font-size:30px;
+}
+
+/* footer ----------------*/
+
+footer{
+    background-color:#000;
+    color:var(--white);
+    text-align: center;
+    padding:10px;
+    font-size:20px;
+    margin-top:-5px;
+}
+
+footer span{
+    color:var(--blue);
+}
